@@ -12,6 +12,7 @@ module.exports = {
       {
         test : /\.js?/,
         include : SRC_DIR,
+        exclude: /node_modules/,
         loader : 'babel-loader',
       }, 
       {

@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Clue from './Clue';
 
 const Category = props => {
   return (
     <div className={'category'} data-testid="category">
       {/* display category */}
-      {/* display clues for each category */}
+      < Clue />
     </div>
   );
 };
